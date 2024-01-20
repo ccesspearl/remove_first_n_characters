@@ -4,5 +4,7 @@
 # Pseudocode
 
 # Letting the user input a word
+user_input = input("Type a word: ")
+
 # Creating a function for removing letters 
 # Showing and printing the result 
