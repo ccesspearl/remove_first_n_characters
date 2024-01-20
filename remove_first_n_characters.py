@@ -7,4 +7,11 @@
 user_input = input("Type a word: ")
 
 # Creating a function for removing letters 
+def remove_chars(word, number):   
+    print("Original word:", word)
+    basis = word[number:]
+    result = "New word: " + basis
+    
+    return result
+
 # Showing and printing the result 
